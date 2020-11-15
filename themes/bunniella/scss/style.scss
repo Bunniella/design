@@ -21,3 +21,21 @@ h5,
 h6 {
     font-family: 'Lora', serif;
 }
+
+.icon {
+    font-size: 8em;
+
+    &one {
+        color: #CF649A;/* stylelint-disable-line */
+        padding-right: 2em;
+    }
+
+    &two { color: #E44D26; }/* stylelint-disable-line */
+    
+
+    &three {
+        color: #F0DB4F;/* stylelint-disable-line */
+        float: right;
+        padding-right: 50px;
+    }
+}

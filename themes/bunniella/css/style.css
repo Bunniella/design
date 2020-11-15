@@ -6513,7 +6513,7 @@ body {
 }
 
 .container {
-  max-width: 48em;
+  max-width: 60em;
   padding: 0 0.5em;
   margin: 0 auto;
 }
@@ -6570,12 +6570,14 @@ body {
 .nav {
   padding: 3em 0;
   text-align: right;
+  color: white;
 }
 
 .nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .nav ul li {
@@ -6660,21 +6662,25 @@ body {
   .nav {
     clear: both;
     padding: 0;
+    color: white;
   }
 
   .nav ul {
     padding-bottom: 1em;
+    color: white;
   }
 
   .nav ul li {
     display: block;
     margin-left: 0;
     text-align: center;
+    color: white;
   }
 
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
+    color: white;
   }
 
   .js .nav-toggle {
@@ -6686,10 +6692,12 @@ body {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
+    color: white;
   }
 
   .js .nav-toggle > * {
     vertical-align: middle;
+    color: white;
   }
 
   .footer p {
@@ -7052,4 +7060,23 @@ h4,
 h5,
 h6 {
   font-family: "Lora", serif;
+}
+
+.icon {
+  font-size: 8em;
+  /* stylelint-disable-line */
+}
+.iconone {
+  color: #CF649A;
+  /* stylelint-disable-line */
+  padding-right: 2em;
+}
+.icontwo {
+  color: #E44D26;
+}
+.iconthree {
+  color: #F0DB4F;
+  /* stylelint-disable-line */
+  float: right;
+  padding-right: 50px;
 }
