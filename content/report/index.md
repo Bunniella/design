@@ -1,21 +1,43 @@
 ---
 Title: Report
 Description: This is my report page.
+Template: report
 ---
 
 Report page
 ==========================
 
-<a href="report/kmom01"><h3>Kmom01</h3></a>
+<div class="kmom-box">
+    <a href="report/kmom01"><h2 class="heading">Kmom01</h2></a>
+    <p>Ramverk, innehåll, style</p>
+</div>
 
-<a href="report/kmom02"><h3>Kmom02</h3></a>
+<div class="kmom-box">
+    <a href="report/kmom02"><h2 class="heading">Kmom02</h2></a>
+    <p>SASS och typografi</p>
+</div>
 
-<a href="report/kmom03"><h3>Kmom03</h3></a>
+<div class="kmom-box">
+    <a href="report/kmom03"><h2 class="heading">Kmom03</h2></a>
+    <p>Layout</p>
+</div>
 
-<a href="report/kmom04"><h3>Kmom04</h3></a>
+<div class="kmom-box">
+    <a href="report/kmom04"><h2 class="heading">Kmom04</h2></a>
+    <p>Färg</p>
+</div>
 
-<a href="report/kmom05"><h3>Kmom05</h3></a>
+<div class="kmom-box">
+    <a href="report/kmom05"><h2 class="heading">Kmom05</h2></a>
+    <p>Bilder</p>
+</div>
 
-<a href="report/kmom06"><h3>Kmom06</h3></a>
+<div class="kmom-box">
+    <a href="report/kmom06"><h2 class="heading">Kmom06</h2></a>
+    <p>Tillgänglighet och prestanda</p>
+</div>
 
-<a href="report/kmom10"><h3>Kmom10</h3></a>
+<div class="kmom-box project">
+    <a href="report/kmom10"><h2 class="heading">Kmom10</h2></a>
+    <p>Projekt</p>
+</div>

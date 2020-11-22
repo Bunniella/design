@@ -1,0 +1,48 @@
+.kmomsida {
+    max-width: 65em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.kmom {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+.menu {
+    flex-basis: 0.1em;
+}
+
+.kmom-nav .iconen {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .kmom-nav a {display: none;}
+    .kmom-nav a.iconen {/* stylelint-disable-line */
+        float: left;
+        display: block;
+    }
+
+    .kmom-nav.responsive {position: relative;}
+    .kmom-nav.responsive a.iconen {/* stylelint-disable-line */
+        position: relative;
+    }
+
+    .kmom-nav.responsive a {
+        float: left;
+        display: block;
+        text-align: left;
+    }
+
+    .kmom-nav {
+        max-width: 3em;
+    }
+}
+
+.farg {
+    color: white;/* stylelint-disable-line */
+    font-size: 1.5em;
+}

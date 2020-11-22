@@ -1,0 +1,41 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    padding: 0 1em;
+    max-width: 65em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    border: 1px solid white;/* stylelint-disable-line */
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background: linear-gradient(to bottom, white 0%,white 50%,#ffffff 50%,black 50%,black 100%);/* stylelint-disable-line */
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.heading {
+    color: black;/* stylelint-disable-line */
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .kmom-box,
+    .kmom-box.project,
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+}

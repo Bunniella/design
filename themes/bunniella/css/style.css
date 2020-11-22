@@ -6513,7 +6513,7 @@ body {
 }
 
 .container {
-  max-width: 60em;
+  max-width: 65em;
   padding: 0 0.5em;
   margin: 0 auto;
 }
@@ -7047,6 +7047,100 @@ fieldset label:last-child, fieldset input:last-child, fieldset button:last-child
 input::-moz-focus-inner, button::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  padding: 0 1em;
+  max-width: 65em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  border: 1px solid white;
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  background: linear-gradient(to bottom, white 0%, white 50%, #ffffff 50%, black 50%, black 100%);
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.heading {
+  color: black;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .kmom-box,
+.kmom-box.project,
+.landingpage h1 {
+    grid-column: span 1;
+  }
+}
+.kmomsida {
+  max-width: 65em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.kmom {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1.5em;
+}
+
+.menu {
+  flex-basis: 0.1em;
+}
+
+.kmom-nav .iconen {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .kmom-nav a {
+    display: none;
+  }
+
+  .kmom-nav a.iconen {
+    float: left;
+    display: block;
+  }
+
+  .kmom-nav.responsive {
+    position: relative;
+  }
+
+  .kmom-nav.responsive a.iconen {
+    position: relative;
+  }
+
+  .kmom-nav.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+  }
+
+  .kmom-nav {
+    max-width: 3em;
+  }
+}
+.farg {
+  color: white;
+  font-size: 1.5em;
 }
 
 * {

@@ -73,4 +73,13 @@ function main()
     onResizeEvent();
 }
 
+function kmomNavbar() {
+    var x = document.getElementById("my-nav");
+    if (x.className === "kmom-nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "kmom-nav";
+    }
+}
+
 main();
