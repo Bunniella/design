@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    color: $background-light;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+/*** BASIC LAYOUT ***/
+
+html,
+body {
+    height: 100%;
+    background-color: $background-light;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.main {
+    padding: 5em 0 4em;
+}
+
+.container {
+    max-width: 65em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.widescreen .container {
+    max-width: 72em;
+}
+
+/* very ugly overflow fix, avoid this whenever possible! */
+
+.main .container {
+    overflow-x: auto;
+}
+
+/*** BASIC LAYOUT: HEADER ***/
+
+.header {
+    background: $background-light;
+}
+
+.title,
+.logo {
+    float: left;
+    padding: 1em 1em 1em 0;
+}
+
+.title * {
+    margin: 0;
+    color: $text-color-light;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    height: 10.8em;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+}
+
+.logo img {
+    min-width: 4.8em;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+
+.bildindex {
+    height: 250px;
+    width: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* IE8 + IE9 clearfix */
+
+.header>.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.flash-img {
+    height: 100%;
+}

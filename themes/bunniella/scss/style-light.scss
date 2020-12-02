@@ -1,13 +1,13 @@
 @import 'fonts';
 @import 'old';
 @import 'variables';
-@import 'dark/header';
-@import 'dark/nav';
-@import 'dark/footer';
-@import 'dark/small';
-@import 'dark/report';
-@import 'dark/kmom';
-@import 'dark/typography';
+@import 'light/header-light';
+@import 'light/nav-light';
+@import 'light/footer-light';
+@import 'light/small-light';
+@import 'light/report-light';
+@import 'light/kmom-light';
+@import 'light/typography-light';
 
 .icon {
     font-size: 8em;

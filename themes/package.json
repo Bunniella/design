@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass bunniella/scss/style.scss bunniella/css/style.css --no-source-map",
-    "style-min": "sass bunniella/scss/style.scss bunniella/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass bunniella/scss/style-light.scss bunniella/css/style-light.css --no-source-map",
+    "style-light-min": "sass bunniella/scss/style-light.scss bunniella/css/style-light.min.css --no-source-map --style compressed",
+    "style-dark": "sass bunniella/scss/style.scss bunniella/css/style.css --no-source-map",
+    "style-dark-min": "sass bunniella/scss/style.scss bunniella/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
