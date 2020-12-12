@@ -36,7 +36,7 @@ Sedan så använder jag inspektering för att få ut information från sidan om 
 
 <h4>Folksam</h4>
 
-<img src="../assets/img/analysis/folksam.jpg" class="?" alt="Bild på Folksams hemsida"><br>
+<img src="../assets/img/analysis/folksam.jpg" alt="Bild på Folksams hemsida"><br>
 <p>
 På Folksams sida använder de sig utav en färgpalett som innehåller färgerna:
 </p>
@@ -63,7 +63,7 @@ På deras överskrifter eller text som de vill ska dra mer uppmärksamhet till s
 <br><br>
 <h4>Svedea</h4>
 
-<img src="../assets/img/analysis/svedea.jpg" class="?" alt="Bild på Svedea hemsida"><br>
+<img src="../assets/img/analysis/svedea.jpg" alt="Bild på Svedea hemsida"><br>
 <p>
 På Svedeas sida använder de sig utav en färgpalett som innehåller färgerna:
 </p>
@@ -88,7 +88,7 @@ på rubriker, underrubriker samt brödtext.
 <br><br>
 <h4>IF</h4>
 
-<img src="../assets/img/analysis/if.jpg" class="?" alt="Bild på IF hemsida"><br>
+<img src="../assets/img/analysis/if.jpg" alt="Bild på IF hemsida"><br>
 <p>
 På IFs sida använder de sig utav en färgpalett som innehåller färgerna:
 </p>
