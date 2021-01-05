@@ -10,9 +10,9 @@ Här är ett urval av några av de tekniker som jag använder mig utav på min p
 
 <br>
 
-<a href="https://sass-lang.com/"><i class="fab fa-sass icon iconone"></i></a>
-<a href="https://html.spec.whatwg.org/"><i class="fab fa-html5 icon icontwo"></i></a>
-<a href="https://developer.mozilla.org/sv-SE/docs/Web/JavaScript/Guide"><i class="fab fa-js icon iconthree"></i></a>
+<a href="https://sass-lang.com/" aria-label="sass"><i class="fab fa-sass icon iconone"></i></a>
+<a href="https://html.spec.whatwg.org/" aria-label="html"><i class="fab fa-html5 icon icontwo"></i></a>
+<a href="https://developer.mozilla.org/sv-SE/docs/Web/JavaScript/Guide" aria-label="js"><i class="fab fa-js icon iconthree"></i></a>
 
 <br>
 

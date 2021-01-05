@@ -6857,12 +6857,12 @@ img {
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-  color: #298f04;
+  color: #1d6104;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-  color: #298f04;
+  color: #1d6104;
   text-decoration: underline;
 }
 
@@ -6872,7 +6872,7 @@ img {
 
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
-  background: #8f007e;
+  background: #af229f;
   color: #000;
 }
 
@@ -6881,14 +6881,15 @@ img {
 }
 
 .footer a:hover {
-  color: #298f04;
+  color: #1d6104;
 }
 
 .footer p {
   margin: 0;
   padding: 3em 0;
-  color: #0d2c02;
+  color: #000;
   font-weight: bolder;
+  font-size: 1.3rem;
 }
 
 .footer .social {
@@ -7156,7 +7157,7 @@ fieldset {
 }
 
 a {
-  color: #298f04;
+  color: #1d6104;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }

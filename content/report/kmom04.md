@@ -4,7 +4,7 @@ Template: kmom
 ---
 
 <div class="kmom-nav kmom menu" id="my-nav">
-<a href="javascript:void(0);" class="iconen" onclick="kmomNavbar()">
+<a href="javascript:void(0);" class="iconen" onclick="kmomNavbar()" aria-label="kmom">
     <i class="fa fa-bars farg"></i>
 </a>
 <a href="kmom01">Kmom01</a>

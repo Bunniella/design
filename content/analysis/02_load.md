@@ -4,45 +4,45 @@ Template: kmom
 ---
 
 <div class="kmom-nav kmom menu" id="my-nav">
-<a href="javascript:void(0);" class="iconen" onclick="kmomNavbar()">
+<a href="javascript:void(0);" class="iconen" onclick="kmomNavbar()" aria-label="Report">
     <i class="fa fa-bars farg"></i>
 </a>
-<a href="01_colors">Analysis 1</a>
-<a href="02_load">Analysis 2</a>
-<a href="03_design_principles">Analysis 3</a>
+<a href="01_colors" aria-label="Report">Analysis 1</a>
+<a href="02_load" aria-label="Report">Analysis 2</a>
+<a href="03_design_principles" aria-label="Report">Analysis 3</a>
 </div>
 
 <div class="kmom">
 <h1>Analysis 2</h1>
 <br>
-<h3>Load time</h3>
+<h2>Load time</h2>
 <p>
 Denna anayls handlar om att ta 3 olika webbplatser och testa hur snabb laddningstid de har och om de innehåller några saker som kan förbättras, med tanke på laddningtid och användbarhet.
 </p>
 <br>
-<h3>Urval</h3>
+<h2>Urval</h2>
 <p>
 Jag valde att använda samma webbplatser som på första analysen, IF, Svedea och Folksam. Detta för att kunna göra en full analys av dess sida, samt så vill man inte att det ska ta långt tid att köpa eller hitta information om försäkringar. 
 <br>Det flesta människor vill bara att de delarna ska fungera och inte behöva tänka så mycket på försäkringar.
-<h4>Folksam</h4>
+<h3>Folksam</h3>
 
 <img src="../assets/img/analysis/folksam.jpg" alt="Bild på Folksams hemsida"><br>
-<h4>Svedea</h4>
+<h3>Svedea</h3>
 
 <img src="../assets/img/analysis/svedea.jpg" alt="Bild på Svedea hemsida"><br>
-<h4>IF</h4>
+<h3>IF</h3>
 
 <img src="../assets/img/analysis/if.jpg" alt="Bild på IF hemsida"><br>
 </p>
 <br>
-<h3>Metod</h3>
+<h2>Metod</h2>
 <p>
 För att analysera dessa sidors laddningstid använder jag mig utav ett verktyg som heter Google Pagespeed. Denna sida ger än ett övergripande prestationspoäng på sidan som man valt att analysera. Man får även ut mätvärden från några specifika områden som detta verktyg testar för att få fram prestandan på sidan.
 <br>
 Jag använde mig även utav LibreOffice Calc för att sammanställa all data som jag fick av Google Pagespeed på de webbsidor jag valt att analysera.
 </p>
 <br>
-<h3>Resultat</h3>
+<h2>Resultat</h2>
 <a href="%base_url%/assets/doc/laddningstid-analys2.pdf" target="_blank">Resultat</a>
 <br><br>
 <p>
@@ -53,7 +53,7 @@ På Svedeas sida ger Google Pagespeed tips om att bland annat även här ta bort
 Kollar man på Folksams sida ger Google Pagespeed tips om att bland annat ta bort Javascript som inte används och även här ta bort resurser som blockerar renderingen. Båda dessa tips skulle kunna spara 0,4 sekunder vardera om man åtgärdade. Det är hela 0,8 sekunder som onödig kod drar ner på Folksams prestanda.
 </p>
 <br>
-<h3>Analys</h3>
+<h2>Analys</h2>
 <p>
 Som man kan se i resultat dokumentet så ligger alla sidorna väldigt nära varandra när det kommer till laddningstid, poäng samt hur "bra" sidorna är på dess mobilversion.
 <br><br>
@@ -72,7 +72,7 @@ Svedea fick där med landa på plats nr 3 då de har sämst prestanda värde, l�
 Alla 3 sidorna går ändå in under min satta gräns på 2-3 sekunder. Svedea som har längsta laddningstiden ligger på ett snitt av 2,24 sekunder vilket inte alls är särskillt lång tid enligt mig. Så allt som allt tycker jag inte att man märker av dessa millisekunder då det rör sig om ett span på snabbaste sidan på 2,1 sekunder till den långsamaste på 2,24 sekunder. Alla sidorna är snabba när man är inne på dem och navigerar sig runt på dess olika sidor.
 </p>
 <br>
-<h3>Referenser</h3>
+<h2>Referenser</h2>
 <p>
 <a href="https://www.folksam.se/">Folksam</a>
 <br>
@@ -83,7 +83,7 @@ Alla 3 sidorna går ändå in under min satta gräns på 2-3 sekunder. Svedea so
 <a href="https://developers.google.com/speed/pagespeed/insights/">Google Pagespeed</a>
 </p>
 <br>
-<h3>Övrigt</h3>
+<h2>Övrigt</h2>
 <p>
 Skriven av Daniella Forslund.
 </p>

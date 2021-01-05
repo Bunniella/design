@@ -4,37 +4,37 @@ Template: kmom
 ---
 
 <div class="kmom-nav kmom menu" id="my-nav">
-<a href="javascript:void(0);" class="iconen" onclick="kmomNavbar()">
+<a href="javascript:void(0);" class="iconen" onclick="kmomNavbar()" aria-label="Report">
     <i class="fa fa-bars farg"></i>
 </a>
-<a href="01_colors">Analysis 1</a>
-<a href="02_load">Analysis 2</a>
-<a href="03_design_principles">Analysis 3</a>
+<a href="01_colors" aria-label="Report">Analysis 1</a>
+<a href="02_load" aria-label="Report">Analysis 2</a>
+<a href="03_design_principles" aria-label="Report">Analysis 3</a>
 </div>
 
 <div class="kmom">
 <h1>Analysis 1</h1>
 <br>
-<h3>Color</h3>
+<h2>Color</h2>
 <p>
 Denna analys handlar om att utvärdera webbplatsers färgval och känslan de signalerar till användaren.
 </p>
 <br>
-<h3>Urval</h3>
+<h2>Urval</h2>
 <p>
 Jag valde att göra en analys på IF, Svedea och Folksams hemsida. Jag valde dessa 3 st då de alla är i samma bransch, försäkrings branschen, och att de har lite olika teman och tillvägagångssätt på sina sidor för att nå ut till användaren.
 Jag valde just försäkringsbolag då det är en väldigt konkurerande bransch och det gäller att man har en bra hemsida för att kunna fånga användarens uppmärksamhet att vilja stanna kvar på dess sida och läsa mer om deras försäkringar som de erbjuder.
 </p>
 <br>
-<h3>Metod</h3>
+<h2>Metod</h2>
 <p>
 För att analysera sidornas olika färgschema använder jag mig utav Color Wheel - Adobe samt Colorzilla. 
 Sedan så använder jag inspektering för att få ut information från sidan om vad de använder och hur.
 </p>
 <br>
-<h3>Resultat</h3>
+<h2>Resultat</h2>
 
-<h4>Folksam</h4>
+<h3>Folksam</h3>
 
 <img src="../assets/img/analysis/folksam.jpg" alt="Bild på Folksams hemsida"><br>
 <p>
@@ -61,7 +61,7 @@ Dess accentfärg är den nyans av rosa som de använder på några få ställen 
 På deras överskrifter eller text som de vill ska dra mer uppmärksamhet till sig, använder de sig utav h2 och h3 i storlek. Men på vanliga brödtexten använder de sig inte utav något p element utan har mest länkar, a element, och även "" som all text är inom. På sin sida använder de sig utav fonten sans-serif och även "Sanchez",serif.
 </p>
 <br><br>
-<h4>Svedea</h4>
+<h3>Svedea</h3>
 
 <img src="../assets/img/analysis/svedea.jpg" alt="Bild på Svedea hemsida"><br>
 <p>
@@ -86,7 +86,7 @@ På Svedeas sida har de laddat in googlefonts och använder sig utav fonten sans
 på rubriker, underrubriker samt brödtext.
 </p>
 <br><br>
-<h4>IF</h4>
+<h3>IF</h3>
 
 <img src="../assets/img/analysis/if.jpg" alt="Bild på IF hemsida"><br>
 <p>
@@ -132,7 +132,7 @@ Jag tycker att dessa sidor har gjort det bra med färgerna som de använder samt
 Allt som allt tycker jag att de alla har väldigt bra sidor för dess syfte. Dock om jag personligen enbart skulle gå på hur dess sida ser ut skulle jag köpa mina försäkringar från antingen Folksam eller IF.
 </p>
 <br>
-<h3>Referenser</h3>
+<h2>Referenser</h2>
 <p>
 <a href="https://www.folksam.se/">Folksam</a>
 <br>
@@ -147,7 +147,7 @@ Allt som allt tycker jag att de alla har väldigt bra sidor för dess syfte. Doc
 <a href="https://www.kinnarps.se/kunskap/different-colours-affect-us-in-different-ways/">Kinnarps.se</a>
 </p>
 <br>
-<h3>Övrigt</h3>
+<h2>Övrigt</h2>
 <p>
 Skriven av Daniella Forslund.
 </p>
